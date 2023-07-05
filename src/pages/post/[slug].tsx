@@ -111,6 +111,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     }
   })
 
+  const post = data?.post || null;
 
   return {
     props: {
