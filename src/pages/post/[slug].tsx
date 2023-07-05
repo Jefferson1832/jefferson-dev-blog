@@ -124,7 +124,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
     paths: [
-      {params: { slug: 'titule-de-exemplo-5'}}
+      {params: { slug: 'empreendedorismo-digital-o-caminho-para-a-inovacao-e-o-sucesso-online'}},
     ],
     fallback: 'blocking'
   }
